@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
+
+:root {
+    --dark-color: #000622;
+    --aqua-color: #0ef;
+    --red-color: rgb(255, 68, 68);
+    --section-color: rgb(218, 218, 218);
+}
+
+.body {
+    font-family: "Roboto", sans-serif;
+    height: 10000px;
+}
+
+.navbar {
+    background-color: var(--dark-color);
+}
+
+.navbar .nav-item .nav-link {
+color: white;
+}
+
+.navbar .nav-item .nav-item dropdown {
+    color: white;
+}
+
+
+.navbar .navbar-brand {
+    color: white;
+}
+
+.navbar .navbar-brand:hover {
+    color: var(--aqua-color);
+}
+
+.navbar .nav-item .nav-link.active,
+.navbar .nav-item .nav-link:focus,
+.navbar .nav-item .nav-link:hover {
+    color: var(--aqua-color);
+}
+
+active {
+    color: #0ef;
+}
+
+.navbar .navbar-toggler-icon {
+    box-shadow: none;
+    color: white;
+}
+
+.navbar .navbar-toggler {
+    font-size: 25px;
+    color: white;
+    border: white;
+}
+
+.navbar .navbar-toggler:focus {
+    box-shadow: none;
+}
+
+.landing {
+    background-color: var(--dark-color);
+    min-height: calc(75vh - 56px);
+}
+
+.landing.join-btn  {
+background-color: var(--red-color);
+}
+
+.main-btn {
+    padding: 0.5rem 1.5rem;
+}
+
+.main-title::after {
+    content: '';
+    width: 120px;
+    height: 2px;
+    background-color: #0ef;
+    position: absolute;
+    bottom: -20px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.features .main-title .magic-icon  {
+    color: #000622;
+    font-size: 32px;
+}
+
+.features .icon-holder {
+    height: 200px;
+}
+
+.features .icon-holder svg {
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.features .icon-holder .number {
+    font-size: 12rem;
+    color: var(--section-color);
+}
+
+.features .icon-holder .icon {
+    color: greenyellow;
+}
+
+.features .feat h4 {
+    color: var(yellow);
+}
+
+/* Our work start */
+
+.our-work {
+    background-color: aliceblue;
+}
+
+.our-work ul .active {
+    background-color: var(--red-color);
+    color: greenyellow;
+}
+
+.our-work ul li {
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+}
+
+.our-work ul  li:not(.active):hover {
+    color: var(--red-color);
+}
+
+.our-work box {
+    padding: 5px;
+    overflow: hidden;
+    position: relative;
+}
+
+
+
+/* Our work end /*
